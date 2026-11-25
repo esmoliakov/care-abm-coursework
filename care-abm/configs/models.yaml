@@ -1,0 +1,31 @@
+
+generation:                # VIENODI visiems modeliams
+  temperature: 0.7
+  top_p: 0.95
+  max_tokens: 500          # pakanka JSON atsakymui (T1 skaičiavimas: ~100–200 žetonų)
+  use_seed: true           # generavimo sėkla, kai palaiko serveris (OpenAI – „best effort“)
+  json_mode: json_object   # "none", jei serveris nepalaiko response_format
+  timeout: 180
+  api_retries: 5
+
+models:
+  MOCK:                    # testavimui be API (nemokamas)
+    provider: mock
+
+  # --- DKM-A: mažas atviras modelis (~7–8 mlrd.) -----------------------------------------------------
+  DKM-A:
+    base_url: ${DKM_A_BASE_URL}
+    model: ${DKM_A_MODEL}
+    api_key_env: DKM_A_API_KEY
+
+  # --- DKM-B: didesnis atviras modelis (>=30 mlrd.) --------------------------------------------------
+  DKM-B:
+    base_url: ${DKM_B_BASE_URL}
+    model: ${DKM_B_MODEL}
+    api_key_env: DKM_B_API_KEY
+
+  # --- DKM-C: komercinis modelis (OpenAI) ------------------------------------------------------------
+  DKM-C:
+    base_url: https://api.openai.com/v1
+    model: ${DKM_C_MODEL}
+    api_key_env: OPENAI_API_KEY

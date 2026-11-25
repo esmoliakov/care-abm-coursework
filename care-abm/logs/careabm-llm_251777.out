@@ -1,0 +1,39 @@
+Mazgas: node-37  Modelis: Qwen/Qwen2.5-32B-Instruct  TP=4
+name, memory.total [MiB]
+Tesla V100-SXM2-32GB, 32768 MiB
+Tesla V100-SXM2-32GB, 32768 MiB
+Tesla V100-SXM2-32GB, 32768 MiB
+Tesla V100-SXM2-32GB, 32768 MiB
+vLLM pasiruošęs po 270 s
+python 3.12.3 vllm 0.17.1 numpy 2.2.6 scipy 1.18.1 pandas 3.1.1
+[S6__DKM-B] DKM patikra ok: Qwen/Qwen2.5-32B-Instruct (3.8 s)
+[S6__DKM-B] 1/30 pakartojimas 0: ok  (82 s)
+[S6__DKM-B] 2/30 pakartojimas 1: ok  (89 s)
+[S6__DKM-B] 3/30 pakartojimas 2: ok  (91 s)
+[S6__DKM-B] 4/30 pakartojimas 3: ok  (91 s)
+[S6__DKM-B] 5/30 pakartojimas 4: ok  (172 s)
+[S6__DKM-B] 6/30 pakartojimas 5: ok  (172 s)
+[S6__DKM-B] 7/30 pakartojimas 6: ok  (172 s)
+[S6__DKM-B] 8/30 pakartojimas 7: ok  (172 s)
+[S6__DKM-B] 9/30 pakartojimas 8: ok  (263 s)
+[S6__DKM-B] 10/30 pakartojimas 9: ok  (263 s)
+[S6__DKM-B] 11/30 pakartojimas 10: ok  (263 s)
+[S6__DKM-B] 12/30 pakartojimas 11: ok  (263 s)
+[S6__DKM-B] 13/30 pakartojimas 12: ok  (334 s)
+[S6__DKM-B] 14/30 pakartojimas 13: ok  (342 s)
+[S6__DKM-B] 15/30 pakartojimas 14: ok  (349 s)
+[S6__DKM-B] 16/30 pakartojimas 15: ok  (349 s)
+[S6__DKM-B] 17/30 pakartojimas 16: ok  (409 s)
+[S6__DKM-B] 18/30 pakartojimas 17: ok  (448 s)
+[S6__DKM-B] 19/30 pakartojimas 18: ok  (448 s)
+[S6__DKM-B] 20/30 pakartojimas 19: ok  (448 s)
+[S6__DKM-B] 21/30 pakartojimas 20: ok  (489 s)
+[S6__DKM-B] 22/30 pakartojimas 21: ok  (509 s)
+[S6__DKM-B] 23/30 pakartojimas 22: ok  (511 s)
+[S6__DKM-B] 24/30 pakartojimas 23: ok  (530 s)
+[S6__DKM-B] 25/30 pakartojimas 24: ok  (569 s)
+[S6__DKM-B] 26/30 pakartojimas 25: ok  (588 s)
+[S6__DKM-B] 27/30 pakartojimas 26: ok  (588 s)
+[S6__DKM-B] 28/30 pakartojimas 27: ok  (615 s)
+[S6__DKM-B] 29/30 pakartojimas 28: ok  (647 s)
+[S6__DKM-B] 30/30 pakartojimas 29: ok  (664 s)

@@ -1,0 +1,28 @@
+{
+  "budget_per_senior": {
+    "low": 0.10487487771443921,
+    "high": 0.772389877850261
+  },
+  "details": {
+    "low": {
+      "budget": 0.10487487771443921,
+      "R1_mean": 42.12609005867216,
+      "R1_sd": 0.46419839490399467,
+      "ceiling": 343.66118136383204
+    },
+    "high": {
+      "budget": 0.772389877850261,
+      "R1_mean": 312.29097457216574,
+      "R1_sd": 3.833151572998714,
+      "ceiling": 343.66118136383204
+    }
+  },
+  "theta_default": {
+    "alpha_amb": 0.35,
+    "l_max": 8.0,
+    "respite": 0.2
+  },
+  "n_seeds": 40,
+  "tol": 0.5,
+  "note": "Kalibravimo rezultatai 3.1 sk. lentelei (tikslumas = |R1 - taikinys|, sd = atsitiktinis svyravimas)."
+}
